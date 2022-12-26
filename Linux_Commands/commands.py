@@ -1,4 +1,5 @@
 #speaking with cmd using python lab 
+#Linux mostly used 40 commands 
 import os
 os.system("echo hello terminal")
 print("--------------------------------------------------------------")
@@ -6,6 +7,7 @@ os.system("echo  ls list iles and directories")
 y=os.popen("ls") 
 y=y.read()
 print(y)
+
 print("--------------------------------------------------------------")
 os.system("echo  cd To navigate through the Linux files and directories ")
 a=os.popen("cd") 
